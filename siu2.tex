@@ -4,7 +4,7 @@
 \usepackage{ruby}
 \XeTeXlinebreaklocale "zh" 
 \XeTeXlinebreakskip = 0pt plus 1pt 
-\renewcommand{\rubytopsep}{-40em}
+\renewcommand{\rubysep}{-4ex}
 \pagestyle{empty}
 %Select fonts
 %\setmainfont[Mapping=tex-text]{Times New Roman} % rm
@@ -15,20 +15,12 @@
 \linespread{3}
 
 \makeatletter
-\newcommand{\rubytop}[2]{%
-  \@tempdimc \f@size\p@
-  \begin{tabular}[b]{@{}c@{}}
-    \fontsize{.4\@tempdimc}{.48\@tempdimc}\selectfont%
-    \setlength{\normalbaselineskip}{0pt}#1\\[-4.3pt]
-    #2
-  \end{tabular}%
-}
 \newcommand{\rubybot}[2]{%
   \@tempdimc \f@size\p@
   \begin{tabular}[t]{@{}c@{}}
-    #1\\[-1em]
-    \fontsize{.4\@tempdimc}{.48\@tempdimc}\selectfont%
-    \setlength{\normalbaselineskip}{0pt}#2
+    #1\\[-3em]
+    \fontsize{.8\@tempdimc}{.8\@tempdimc}\selectfont%
+    \setlength{\normalbaselineskip}{0pt}#2 
   \end{tabular}%
 }
 \makeatother
@@ -42,9 +34,9 @@
 \includegraphics[height=1em]{圖/⿳⿳ㄙㄧㆬ}
 \\
 On this line \rubybot{aba}{がabaく}\rubybot{生}{せい}
-\rubybot{我 \includegraphics[height=1em]{圖/⿳⿳⿳ㆣㄨㄚˋ}}{gua2}
-\rubybot{我 \includegraphics[height=1em]{圖/⿳⿳⿳ㆣㄨㄚˋ}}{gua2}
-\rubybot{我 \includegraphics[height=1em]{圖/⿳⿳⿳ㆣㄨㄚˋ}}{gua2}
+\rubybot{我 \includegraphics[height=1em]{圖/⿳⿳⿳ㆣㄨㄚˋ}}{a}
+\rubybot{\includegraphics[height=1em]{圖/我} \includegraphics[height=1em]{圖/⿳⿳⿳ㆣㄨㄚˋ}}{gua2}
+\rubybot{\includegraphics[height=1em]{圖/我} \includegraphics[height=1em]{圖/⿳⿳⿳ㆣㄨㄚˋ}}{gua2}
 \rubybot{我 \includegraphics[height=1em]{圖/⿳⿳⿳ㆣㄨㄚˋ}}{gua2}
 \rubybot{我 \includegraphics[height=1em]{圖/⿳⿳⿳ㆣㄨㄚˋ}}{gua2}
 \rubybot{我 \includegraphics[height=1em]{圖/⿳⿳⿳ㆣㄨㄚˋ}}{gua2}
