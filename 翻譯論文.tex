@@ -1,4 +1,32 @@
 \documentclass[final,oneside,onecolumn,12pt,a4paper]{book}%
+%薛丞宏加的
+\usepackage{fontspec} 
+\usepackage{xeCJK} 
+\usepackage{ruby}
+\XeTeXlinebreaklocale "zh" 
+\XeTeXlinebreakskip = 0pt plus 1pt 
+\renewcommand{\rubysep}{-4ex}
+\pagestyle{empty}
+%Select fonts
+%\setmainfont[Mapping=tex-text]{Times New Roman} % rm
+%\setsansfont[Mapping=tex-text]{Arial}           % sf
+%\setmonofont{Courier New}                       % tt
+\setCJKmainfont{DFKai-SB} %xelatex 標楷體
+\setCJKmonofont{MingLiU}  %xelatex 細明體
+\linespread{3}
+
+\makeatletter
+\newcommand{\rubybot}[2]{%
+  \@tempdimc \f@size\p@
+  \begin{tabular}[t]{@{}c@{}}
+    #1\\[-3em]
+    \fontsize{.8\@tempdimc}{.8\@tempdimc}\selectfont%
+    \setlength{\normalbaselineskip}{0pt}#2 
+  \end{tabular}%
+}
+\makeatother
+%薛丞宏加的
+
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -71,6 +99,10 @@
 
 
 \chapter{Introduction}
+
+臺語
+\rubybot{臺 \includegraphics[height=1em]{圖/⿳⿳ㄉㄞˊ}}{tai5}
+\rubybot{語 \includegraphics[height=1em]{圖/⿳⿳ㆣㄧˋ}}{gi2}
 
 \emph{Traffic Light Systems} (\emph{TLSs}) are the major facilities for
 managing transportations in urban areas nowadays. Traffic lights control the
@@ -515,7 +547,7 @@ light to find $T$ by a real-value Greatest Common Divisor (GCD) from the
 multiples. We will propose a clustering technique to find $T$ and remove
 potential noises in this approach.
 
-\chapter{Solutions to the PTI Discovery Problem}
+\chapter{臺語介紹}
 
 \label{cha:solutions}
 
@@ -1105,7 +1137,7 @@ Thus, $m_{i}\zeta$ is the error after folding. To keep the folding error
 small, the number of cycles considered should be bounded. This means that the
 SG events being collected should not cover too many cycles.
 
-\chapter{Simulation Results}
+\chapter{翻譯語料}
 
 \label{cha:simulation-results}
 
@@ -1415,7 +1447,7 @@ transition time with respect to different numbers of folded cycles for Problem
 \end{figure}timing information. In short, the proposed framework for the phase
 timing information discovery is practical and economic.
 
-\chapter{Accuracy of Our Framework on Field Trial Data}
+\chapter{摻猶未整理語料}
 
 \label{cha:Impement}
 
@@ -1746,7 +1778,9 @@ shockwave framework could survive in a low penetration rate environment as low
 as $2.7\%$ while sustaining acceptable accuracy for the PTI-enabled
 applications. Overall speaking, our framework is practical and ecnomic.
 
-\chapter{Conclusions and Future Works}
+\chapter{網路語料庫}
+
+\chapter{未來發展}
 
 \label{cha:Conclusions} In this paper, we proposed a crowdsourcing approach
 which adopts shockwave technique to solve the phase timing information (PTI)

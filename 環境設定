@@ -1,0 +1,22 @@
+安裝
+----------------------------
+http://askubuntu.com/questions/163682/how-do-i-install-the-latest-tex-live-2012
+sudo add-apt-repository ppa:texlive-backports/ppa
+sudo apt-get install texlive
+sudo apt-get install latex-cjk-all cjk-latex
+sudo apt-get install texlive-xetex 
+sudo apt-get install texlive-all
+sudo apt-get install texlive-full 
+
+
+注音格式
+----------------------------
+http://tex.stackexchange.com/questions/41676/placing-text-below-other-text
+http://tex.stackexchange.com/questions/95729/typesetting-furigana-above-and-below-original-text
+
+
+執行
+----------------------------
+xelatex 翻譯論文 #建索引
+bibtex 翻譯論文 #產生參考文獻
+xelatex 翻譯論文 #產生PDF
