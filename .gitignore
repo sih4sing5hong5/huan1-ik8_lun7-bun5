@@ -2,3 +2,10 @@
 *.log
 *.pdf
 *.dvi
+*.bbl
+*.blg
+*.lof
+*.lot
+*.toc
+Thesis*
+figures
