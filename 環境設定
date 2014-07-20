@@ -1,18 +1,27 @@
 安裝
 ----------------------------
 http://askubuntu.com/questions/163682/how-do-i-install-the-latest-tex-live-2012
-sudo add-apt-repository ppa:texlive-backports/ppa
+# sudo add-apt-repository ppa:texlive-backports/ppa # if ubuntu 12.04
 sudo apt-get install texlive
 sudo apt-get install latex-cjk-all cjk-latex
-sudo apt-get install texlive-xetex 
-sudo apt-get install texlive-all
+sudo apt-get install texlive-xetex
 sudo apt-get install texlive-full 
+
+
+中文
+----------------------------
+http://www.hitripod.com/blog/2011/04/xetex-chinese-font-cjk-latex/
 
 
 注音格式
 ----------------------------
 http://tex.stackexchange.com/questions/41676/placing-text-below-other-text
 http://tex.stackexchange.com/questions/95729/typesetting-furigana-above-and-below-original-text
+
+
+文獻管理
+----------------------------
+http://www.bibtex.org/Using/
 
 
 執行
