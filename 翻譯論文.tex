@@ -25,6 +25,7 @@
   \end{tabular}%
 }
 \makeatother
+\usepackage[toc,page]{appendix}
 %薛丞宏加的
 
 \usepackage{amsmath}
@@ -88,14 +89,18 @@
 \begin{document}
 
 \frontmatter
-踏頭話
+\chapter{踏頭話}
+勞力～～
 \newpage
 
-摘要
+\chapter{摘要}
+謝謝
 
 \newpage
 
-Abstract
+\chapter{Abstract}
+
+Thank you
 
 \newpage
 
@@ -109,10 +114,16 @@ Abstract
 
 
 \chapter{研究背景}
+\label{章：研究背景}
 
 \rubybot{臺 \includegraphics[height=1em]{圖/⿳⿳ㄉㄞˊ}}{tai5}
 \rubybot{語 \includegraphics[height=1em]{圖/⿳⿳ㆣㄧˋ}}{gi2}
 
+\section{臺語介紹}
+\label{章：臺語介紹}
+
+\section{語料狀況}
+\label{節：語料狀況}
 
 The rest of this paper is organized as follows. Chapter
 \ref{章：相關研究} covers some preliminaries.
@@ -121,45 +132,74 @@ The three versions of the PTI discovery problem are formulated in Chapter
 solutions based on the shockwave approach. Our field trial and simulation
 results are provided in Chapter \ref{章：摻猶未整理語料} and
 \ref{章：網路語料庫}. Conclusions and future works are drawn in Chapter
-\ref{章：未來發展}.
+\ref{章：結論佮未來發展}.
 
 \chapter{相關研究}
-
 \label{章：相關研究}
-
-\chapter{臺語介紹}
-
-\label{章：臺語介紹}
-
-\section{語料狀況}
-
-\label{節：語料狀況}
 
 
 \chapter{翻譯語料}
-
 \label{章：翻譯語料}
 
 頂一章有講
 
 \section{翻譯架構}
+\label{節：翻譯架構}
 國語翻譯到臺語需要兩項物件，一項是國語翻譯到臺語的語詞對照表，另外一項是知影臺語逐句好歹的語言模型。這馬時行的翻譯系統是統計翻譯（），會當分做三个部份：第一个是對齊模型（alignment model），負責產生語詞對照表，伊的做法是：第二部份是語言模型（），…。上尾一部份是解碼器（），用有效率的演算法來翻譯國語到臺語。
 \section{評分方式}
+\label{節：評分方式}
 
 \section{新聞語料庫}
+\label{節：新聞語料庫}
+
 \section{未知詞問題}
+\label{節：未知詞問題}
+
 \section{改變語料格式}
+\label{節：改變語料格式}
+
 \section{未知詞另外翻譯}
+\label{節：未知詞另外翻譯}
 
 \chapter{摻猶未整理語料}
 \label{章：摻猶未整理語料}
+對於定定百萬句的翻譯來講傷少
+加入其他的語料
+教育部語料
+數位典藏
+ 語料之間的問題
+用字無一致
+毋是一對一
+斷詞方法無一致
+
+\section{教育部語料佮數位典藏}
+\label{節：教育部語料佮數位典藏}
+
+\section{漢羅全羅對齊}
+\label{節：漢羅全羅對齊}
+
+\section{斷詞方法}
+\label{節：斷詞方法}
+
+\section{實驗流程佮結果}
+\label{節：實驗流程佮結果}
 
 
 \chapter{網路語料庫}
 \label{章：網路語料庫}
+現況
+\section{TGB通訊－臺灣組合}
+\label{節：TGB通訊－臺灣組合}
 
-\chapter{未來發展}
-\label{章：未來發展}
+\section{語言判斷}
+\label{節：語言判斷}
+
+\section{實驗結果}
+\label{節：實驗結果}
+
+
+\chapter{結論佮未來發展}
+\label{章：結論佮未來發展}
 
 \chapter{--其他--}
 To find $T$, we try to approximate a (real-value) GCD of $D=\left\{
@@ -188,6 +228,10 @@ trial experiments. B is the location of the traffic light.}%
 \bibliographystyle{IEEEtran}
 \bibliography{翻譯論文}
 
+\begin{appendices}
+\chapter{Some Appendix}
+\chapter{Some Appendix}
+The contents...
+\end{appendices}
 
-\bigskip{}
 \end{document}
