@@ -28,4 +28,5 @@ http://www.bibtex.org/Using/
 ----------------------------
 xelatex 翻譯論文 #建索引
 bibtex 翻譯論文 #產生參考文獻
+xelatex 翻譯論文 #重建索引
 xelatex 翻譯論文 #產生PDF

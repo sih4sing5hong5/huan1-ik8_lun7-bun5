@@ -275,6 +275,30 @@ results are provided in Chapter \ref{章：摻猶未整理語料} and
 
 \chapter{摻猶未整理語料}
 \label{章：摻猶未整理語料}
+頂一章使用新聞語料庫，語言模型嘛是用平行語料的臺語訓練的，其實這馬有一大部份的臺語語料攏毋是平行話料，攏是純臺語一種語言爾爾。
+這種純臺語的語料其實嘛會當提來訓練語言模型，毋過語料的形式就有足濟款的，親像有漢羅、全羅佮全漢等等。有的語料會敆兩種以上的文本。
+毋過語料的形式無仝，會當利用的部份就無仝。親像全羅會當提供斷詞的資訊，有漢字佮拼音一對一的當提來做辭典。
+這章希望會加入新的語料庫，而且利用⿰因無仝款的性質，來互相整理，加強翻譯的效果。
+
+
+\section{教育部語料佮數位典藏}
+\label{節：教育部語料佮數位典藏}
+這章按算加入教育部辭典佮數位典藏兩个語料庫，教育部辭典全名「臺灣閩南語常用詞辭典」\footnote{\url{http://twblg.dict.edu.tw/holodict_new/}}，正式版是100年上線，伊有25892的詞條\footnote{1021230申請到的版本}，內底誠濟生活的用語，大部份詞條攏有漢字、音標、解釋、佮例句。的翻譯。
+嘛因為伊有漢字佮音標，就會當共遮的漢字佮音標收集起來，當做用字參考的字典，
+而且這个辭典是教育部編的，當然漢字有照教育部家己的規範來寫，所以伊內部的用字前後有一致，為著翻譯的效果佮使用者的方便，就共教育部辭典的用字當做標準，若有用字佮教育部的用字無仝的，就改做教育部的用字。//閣愛順過
+
+伊的例句，除了臺語漢字佮音標以外，閣有敆華語的翻譯，親像表\ref{表：教育部辭典例句}，漢字佮音標的對應會使提去做用字參考的字典，音標的部份會當提來斷詞，訓練語言模型，臺語佮華語的對應會使提來做平行語料。這例句的語料是非常完整。
+\begin{table}
+\caption{教育部辭典例句}
+\label{表：教育部辭典例句}
+\centering
+\begin{tabular}{l}
+彼个查某囡仔真媠。 \\
+Hit ê tsa-bóo gín-á tsin suí.\\
+那個女孩子很漂亮。\\
+\end{tabular}
+\end{table}
+
 對於定定百萬句的翻譯來講傷少
 加入其他的語料
 教育部語料
@@ -284,8 +308,6 @@ results are provided in Chapter \ref{章：摻猶未整理語料} and
 毋是一對一
 斷詞方法無一致
 
-\section{教育部語料佮數位典藏}
-\label{節：教育部語料佮數位典藏}
 
 \section{漢羅全羅對齊}
 \label{節：漢羅全羅對齊}
@@ -332,7 +354,7 @@ signal, vehicles slow down and eventually stop. After the signal turned to
 green, vehicles accelerate and then enter the free flow state.
 \begin{figure}[pth]
 \centerline{\includegraphics[angle=0, width=3.5in,keepaspectratio,clip]
-{figures/f_map.eps}} \hfill\caption{The road segment in simulation and field
+{圖/⿳⿳ㆣㄧˋ}} \hfill\caption{The road segment in simulation and field
 trial experiments. B is the location of the traffic light.}%
 \label{fig:f_map}%
 \end{figure}
