@@ -91,6 +91,47 @@
 \pagestyle{plain}
 \renewcommand{\baselinestretch}{2}
 \begin{document}
+\begin{titlepage}
+
+\begin{center}
+
+   
+
+\textsc{\Huge 國 立 交 通 大 學}\\[2em] %38
+
+\textsc{\LARGE 資訊科學與工程研究所}\\[2em] %28
+
+\textsc{\LARGE 碩 士 論 文}\\
+[3em] %28
+
+% Title
+{\huge \bfseries 
+臺灣閩南語翻譯語料自動整理\\ %20
+}\\[1em]
+{\LARGE Auto-refining Southern Min, Taiwanese, Corpus for Translations}
+
+\HRule \\[3em]
+
+
+\begin{table}[H]
+\centering
+\Large
+\begin{tabular}{ll}
+研 究 生： & 薛丞宏\\ %18
+指導教授： & 張智星教授\\ %18
+ & 易志偉教授\\ %18
+\end{tabular}
+\end{table}
+
+\vfill
+
+
+{\large 中 華 民 國  １０３  年  ９  月}
+
+\end{center}
+
+\end{titlepage}
+
 
 \frontmatter
 \chapter{踏話頭}
@@ -110,7 +151,7 @@
 \newpage
 
 \chapter{摘要}
-謝謝
+臺灣閩南語是臺灣本土語言的族群之一
 
 \newpage
 
@@ -199,7 +240,7 @@ Thank you
 
 \section{翻譯架構}
 \label{節：翻譯架構}
-華語翻譯到臺語需要兩項物件，一項是華語翻譯到臺語的語詞對照表，另外一項是知影臺語逐句好歹的語言模型。這馬時行的翻譯系統是統計翻譯（statistical machine translation）\footnote{有文字佮樹兩種，這馬講字串的}，會當分做三个部份：
+華語翻譯到臺語需要兩項物件，一項是華語翻譯到臺語的語詞對照表，另外一項是知影臺語逐句好歹的語言模型。這馬時行的翻譯系統是統計翻譯（statistical machine translation）\footnote{有文字佮樹兩種，這馬講文字的}，會當分做三个部份：
 
 第一个是對齊模型（alignment model），負責產生語詞對照表，逐擺提一組華語佮臺語的平行語料出來，親像「我　要　吃飯」和「我　欲　食　飯」，華語詞的「要」，會對應到「我」、「欲」、「食」、「飯」臺語詞，經過大量的平行語料，上尾知影華語的「要」定定對應著臺語的「欲」，也就是共對應頻率懸的組合留落來。
 
@@ -471,6 +512,22 @@ TGB通訊\footnote{\url{http://taioan-chouhap.myweb.hinet.net/}}是學生台灣�
 
 有臺語佮華語的特徵詞了後，咱對網頁整理出一段一段的語料，先用\ref{節：拄好長度斷詞}節的臺語斷詞，看斷詞出來的結果，佇臺語7000个特徵出中，分別出現幾个。
 除了7000个特徵詞，咱閣用臺語語言模型分數，斷詞了的全部詞數，1~4字詞分別數量\footnote{「我　想　欲　食飯」就有3个一字詞，1个兩字詞，全部4个詞}，按呢干焦臺語就有7006个特徵，摻華語就有14012个特徵。
+
+\section{分類器}
+\label{節：分類器}
+
+\subsection{PCA}
+\label{節：PCA}
+
+\subsection{LDA}
+\label{節：LDA}
+
+\subsection{支持向量機}
+\label{節：支持向量機}
+
+\subsection{DNN}
+\label{節：DNN}
+
 
 \section{判斷語言實驗結果}
 \label{節：判斷語言實驗結果}
