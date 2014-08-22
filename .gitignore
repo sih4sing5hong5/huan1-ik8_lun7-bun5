@@ -1,6 +1,5 @@
 *.aux
 *.log
-*.pdf
 *.dvi
 *.bbl
 *.blg
@@ -10,3 +9,5 @@
 *.out
 Thesis*
 figures
+翻譯報告.pdf
+翻譯論文.pdf
