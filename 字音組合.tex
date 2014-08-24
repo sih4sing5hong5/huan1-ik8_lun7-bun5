@@ -1,6 +1,9 @@
 \usepackage{colortbl}
 \usepackage{ruby}
 
+%\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+
 \definecolor{intnull}{RGB}{213,229,255}
 
 \renewcommand{\rubysep}{-4ex}
@@ -30,6 +33,6 @@
 }
 \newcommand{\tsoo}[3]{
 \rubybot{#1
-\ifthenelse{\equal{#2}{}}{}{\includegraphics[height=1em]{音/#2}}
+\ifthenelse{\equal{#2}{}}{}{\raisebox{-.2\height}{\includegraphics[height=1em, frame, trim=-5mm 0 0 -0.5mm]{音/#2}}}
 }{#3}
 }
