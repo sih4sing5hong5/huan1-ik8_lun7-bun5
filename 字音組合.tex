@@ -1,17 +1,27 @@
+\usepackage{colortbl}
 \usepackage{ruby}
+
+\definecolor{intnull}{RGB}{213,229,255}
+
 \renewcommand{\rubysep}{-4ex}
 
 \makeatletter%予臺語音標會當佇字下跤
 \newcommand{\rubybot}[2]{
   \@tempdimc \f@size\p@
-  \begin{tabular}[t]{@{}c@{}}
-    #1\\[-3em]
-    \fontsize{.8\@tempdimc}{.8\@tempdimc}\selectfont%
+  \begin{tabular}[t]{@{}>{\hspace{-6pt}}l<{\hspace{-9pt}}@{}}
+%	\arrayrulecolor{red}\hline
+%    #1\\[-1.7em]
+	#1\\[-1.7em]
+    \fontsize{.5\@tempdimc}{.5\@tempdimc}\selectfont%
     \setlength{\normalbaselineskip}{0pt}#2 
+    %\cellcolor{intnull}
+    
+%	\\\arrayrulecolor{blue}\hline
   \end{tabular}%
 }
 \makeatother
 
+%\fboxrule=4pt%border thickness
 
 \usepackage{ifthen}
 
