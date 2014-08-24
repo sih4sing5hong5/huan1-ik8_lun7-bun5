@@ -1,0 +1,25 @@
+\usepackage{ruby}
+\renewcommand{\rubysep}{-4ex}
+
+\makeatletter%予臺語音標會當佇字下跤
+\newcommand{\rubybot}[2]{
+  \@tempdimc \f@size\p@
+  \begin{tabular}[t]{@{}c@{}}
+    #1\\[-3em]
+    \fontsize{.8\@tempdimc}{.8\@tempdimc}\selectfont%
+    \setlength{\normalbaselineskip}{0pt}#2 
+  \end{tabular}%
+}
+\makeatother
+
+
+\usepackage{ifthen}
+
+\newcommand{\ji}[1]{
+\includegraphics[height=1em]{字/#1}
+}
+\newcommand{\tsoo}[3]{
+\rubybot{#1
+\ifthenelse{\equal{#2}{}}{}{\includegraphics[height=1em]{音/#2}}
+}{#3}
+}

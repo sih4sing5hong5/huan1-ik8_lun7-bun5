@@ -2,10 +2,8 @@
 %薛丞宏加的
 \usepackage{fontspec} 
 \usepackage{xeCJK} 
-\usepackage{ruby}
 \XeTeXlinebreaklocale "zh" 
 \XeTeXlinebreakskip = 0pt plus 1pt 
-\renewcommand{\rubysep}{-4ex}
 \pagestyle{empty}
 %Select fonts
 %\setmainfont[Mapping=tex-text]{Times New Roman} % rm
@@ -15,20 +13,12 @@
 \setCJKmonofont{MingLiU}  %xelatex 細明體
 \linespread{3}
 
-\makeatletter%予臺語音標會當佇字下跤
-\newcommand{\rubybot}[2]{
-  \@tempdimc \f@size\p@
-  \begin{tabular}[t]{@{}c@{}}
-    #1\\[-3em]
-    \fontsize{.8\@tempdimc}{.8\@tempdimc}\selectfont%
-    \setlength{\normalbaselineskip}{0pt}#2 
-  \end{tabular}%
-}
-\makeatother
 \usepackage[toc,page]{appendix}%加附錄
 \usepackage{makecell}%予表的第一格會當有一條舒舒的線隔做兩格
 \usepackage{tablefootnote}%佇表內底用註解footnote in table
 \usepackage{pgfplots}%畫圖表的套件
+
+\input{字音組合}
 %薛丞宏加的
 
 \usepackage{amsmath}
@@ -131,10 +121,9 @@
 
 \frontmatter
 \chapter{踏話頭}
-
-\rubybot{臺 \includegraphics[height=1em]{音/⿳⿳ㄉㄞˊ}}{tai5}
-\rubybot{語 \includegraphics[height=1em]{音/⿳⿳ㆣㄧˋ}}{gi2}
-媠\footnote{\rubybot{臺 \includegraphics[height=1em]{音/⿳⿳ㄉㄞˊ}}{tai5}}
+\tsoo{臺}{⿳⿳ㄉㄞˊ}{tai5}
+\tsoo{語}{⿳⿳ㆣㄧˋ}{gi2}
+媠\footnote{\tsoo{臺}{⿳⿳ㄉㄞˊ}{tai5}}
 臺灣閩南語是臺灣本土語言上大的族群之一，
 這馬是應用程式為主的時代，誠濟應用攏必須倚靠佇技術面頂，
 所以這篇論文分三部份討論語料庫的處理對華語翻譯做臺灣閩南語的影響。
@@ -173,13 +162,12 @@ Thank you
 
 \chapter{研究背景}
 \label{章：研究背景}
-
-臺灣是多元民族的國家，逐家攏有\includegraphics[height=1em]{字/⿰因}家己的文化，逐个民族講的話攏無仝，有人講閩南語，有人講泰雅語，有人講客話，……，最近二十幾年來閣有越南話、印尼話、……新住民的語言。臺灣語言主要會當分做南島語佮漢語兩種\footnote{新住民的越南語是南亞語系，泰國話是狀侗語}。
+臺灣是多元民族的國家，逐家攏有\ji{⿰因}家己的文化，逐个民族講的話攏無仝，有人講閩南語，有人講泰雅語，有人講客話，……，最近二十幾年來閣有越南話、印尼話、……新住民的語言。臺灣語言主要會當分做南島語佮漢語兩種\footnote{新住民的越南語是南亞語系，泰國話是狀侗語}。
 
 南島語是全世界分布上闊的語族\footnote{tte wt臺灣、紐西蘭、}，南島語會當分做四个大族群\cite{李壬癸}。咱臺灣攏總有這四種族群\footnote{加上印尼？}，所以臺灣的原住民毋干焦一个語系。
 \includegraphics[height=1em]{字/⿰因}閣比漢人較早到臺灣，才會予人叫原住民。
 佇歷史的文書記錄面頂，十七世紀荷蘭佮西班牙來臺灣進前就有一个幾仔族原住族組合起來的大肚王國\cite{大肚王國}，
-\includegraphics[height=1em]{字/⿰因}保護\includegraphics[height=1em]{字/⿰因}家己的土地，抵抗荷蘭人，鄭成功政權，清國的統治，到大甲西社事件才滅國。
+\ji{⿰因}保護\ji{⿰因}家己的土地，抵抗荷蘭人，鄭成功政權，清國的統治，到大甲西社事件才滅國。
 到今日，臺灣的原住民除了中華民國政府的原民會認定的十六族以外，閣有誠濟猶未認定的族，親像臺南的西拉雅佮埔里的噶哈巫……，攏總有二三十族以上。
 
 
@@ -202,7 +190,7 @@ Thank you
 
 上尾一个漢語官話是中華民國政府拍輸中國人民共和國了，𤆬誠濟中國人來臺灣，因為逐个的故鄉攏無仝\cite{外省族群的母語與國語}，民國政府就繼續用佇亞洲大陸的規範，共北京官話的語音、白話文的用法當做基礎，利用政府機關，教育認知\footnote{本人阿姨有佇學校講母語予人罰過錢}、…等手法佇臺灣捒，所以這馬是佇臺灣是有上政治優勢的語言。
 毋過這馬佇臺灣實際用的官話閣佮北京用的官話無仝款，有加入臺灣本土的元素，是北京官話的次方言之一。
-除了這三種漢語以外，佇二次大戰了中華民國政府𤆬來臺灣的人，\includegraphics[height=1em]{字/⿰因}的母語嘛誠濟種，毋過這馬攏已經消失甲差不多矣。
+除了這三種漢語以外，佇二次大戰了中華民國政府𤆬來臺灣的人，\ji{⿰因}的母語嘛誠濟種，毋過這馬攏已經消失甲差不多矣。
 
 為著方便起見，本論文下跤的閩南語佮客話攏是講佇臺灣用的閩南語佮客話，
 官話就照中國海外華人的慣習，稱呼佇臺灣使用的北京官話次方言做華語。
