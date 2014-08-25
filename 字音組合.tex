@@ -1,7 +1,10 @@
 \usepackage{colortbl}
 \usepackage{ruby}
 
-\definecolor{intnull}{RGB}{213,229,255}
+\usepackage{graphicx}
+%\usepackage[export]{adjustbox}
+
+%\definecolor{intnull}{RGB}{213,229,255}
 
 \renewcommand{\rubysep}{-4ex}
 
@@ -25,17 +28,13 @@
 
 \usepackage{ifthen}
 
-\newcommand{\too}[1]{
-\raisebox{-.2\height}{\includegraphics[height=1em]{#1}}
-}
-\newcommand{\ji}[1]{
-\too{字/#1}
-}
-\newcommand{\im}[1]{
-\too{音/#1}
-}
+\newcommand{\too}[1]{\raisebox{-.2\height}{\includegraphics[height=1em]{#1}}}
+
+\newcommand{\ji}[1]{\too{字/#1}}
+
+\newcommand{\im}[1]{\too{音/#1}}
+%\raisebox{-.2\height}{\includegraphics[height=1em]{音/#1}}
+
 \newcommand{\tsoo}[3]{
-\rubybot{#1
-\ifthenelse{\equal{#2}{}}{}{\im{#2}}
-}{#3}
+\rubybot{#1\ifthenelse{\equal{#2}{}}{}{\im{#2}}}{#3}
 }
