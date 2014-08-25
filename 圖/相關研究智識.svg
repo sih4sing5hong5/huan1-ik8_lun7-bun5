@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1241.1461"
+   height="781.32446"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="相關研究智識.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path4146"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4143"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-08"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-52"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-35"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-22"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-89"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146-92"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="572.16589"
+     inkscape:cy="504.41244"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="714"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4137"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="360.57923px"
+       originy="-19.34572px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(360.57923,-251.69203)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.73653507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m -120,362.36218 c 220.64692,0 220.64692,0 220.64692,0 l 56.16468,0"
+       id="path4135-3"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g5333">
+      <g
+         id="g5280">
+        <path
+           sodipodi:type="arc"
+           style="fill:#cff6df;fill-opacity:1;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none"
+           id="path2985"
+           sodipodi:cx="204.28572"
+           sodipodi:cy="359.50504"
+           sodipodi:rx="101.42857"
+           sodipodi:ry="247.14285"
+           d="m 305.71429,359.50504 c 0,136.49322 -45.41111,247.14285 -101.42857,247.14285 -56.01745,0 -101.42857,-110.64963 -101.42857,-247.14285 0,-136.49323 45.41112,-247.14286 101.42857,-247.14286 56.01746,0 101.42857,110.64963 101.42857,247.14286 z"
+           transform="matrix(1.3802817,0,0,1.5780347,-501.97184,75.050773)" />
+        <g
+           id="g5275">
+          <rect
+             y="452.36218"
+             x="-320"
+             height="99.999992"
+             width="200"
+             id="rect3780-3-5-7"
+             style="fill:#f4cff6;fill-opacity:1;stroke:#000000;stroke-width:0.93903357;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3785-1"
+             y="516.65906"
+             x="-219.14062"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               style="text-align:center;text-anchor:middle"
+               id="tspan3789-3"
+               y="516.65906"
+               x="-219.14062"
+               sodipodi:role="line">語音學</tspan></text>
+        </g>
+        <g
+           id="g5269">
+          <rect
+             y="312.36218"
+             x="-320"
+             height="99.999992"
+             width="200"
+             id="rect3780-3-5"
+             style="fill:#f4cff6;fill-opacity:1;stroke:#000000;stroke-width:0.93903357;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none" />
+          <text
+             transform="scale(1.0639445,0.93989865)"
+             sodipodi:linespacing="125%"
+             id="text3785"
+             y="373.3353"
+             x="-206.19586"
+             style="font-size:42.55778122px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               style="text-align:center;text-anchor:middle"
+               y="373.3353"
+               x="-206.19586"
+               id="tspan3787"
+               sodipodi:role="line">漢語</tspan><tspan
+               style="text-align:center;text-anchor:middle"
+               id="tspan3789"
+               y="426.53253"
+               x="-206.19586"
+               sodipodi:role="line">聲韻學</tspan></text>
+        </g>
+        <g
+           id="g5259">
+          <rect
+             y="592.36218"
+             x="-320"
+             height="99.999992"
+             width="200"
+             id="rect3780-3-5-5"
+             style="fill:#f4cff6;fill-opacity:1;stroke:#000000;stroke-width:0.93903357;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3785-1-2-0"
+             y="656.2489"
+             x="-219.25781"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               style="text-align:center;text-anchor:middle"
+               id="tspan3789-3-4-972"
+               y="656.2489"
+               x="-219.25781"
+               sodipodi:role="line">音韻學</tspan></text>
+        </g>
+        <g
+           id="g5264">
+          <rect
+             y="732.36218"
+             x="-320"
+             height="99.999992"
+             width="200"
+             id="rect3780-3-5-77"
+             style="fill:#f4cff6;fill-opacity:1;stroke:#000000;stroke-width:0.93903357;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3785-1-2-1"
+             y="796.11218"
+             x="-219.00391"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               style="text-align:center;text-anchor:middle"
+               id="tspan3789-3-4-4"
+               y="796.11218"
+               x="-219.00391"
+               sodipodi:role="line">句法學</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g5300">
+        <path
+           sodipodi:type="arc"
+           style="fill:#cff6df;fill-opacity:1;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none"
+           id="path2985-1"
+           sodipodi:cx="204.28572"
+           sodipodi:cy="359.50504"
+           sodipodi:rx="101.42857"
+           sodipodi:ry="247.14285"
+           d="m 305.71429,359.50504 c 0,136.49322 -45.41111,247.14285 -101.42857,247.14285 -56.01745,0 -101.42857,-110.64963 -101.42857,-247.14285 0,-136.49323 45.41112,-247.14286 101.42857,-247.14286 56.01746,0 101.42857,110.64963 101.42857,247.14286 z"
+           transform="matrix(1.3802817,0,0,1.5780347,-21.971834,75.050766)" />
+        <g
+           id="g5248">
+          <rect
+             y="312.36218"
+             x="160"
+             height="99.999992"
+             width="200"
+             id="rect3780-3-5-77-18"
+             style="fill:#f4cff6;fill-opacity:1;stroke:#000000;stroke-width:0.93903357;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3785-1-2"
+             y="376.48328"
+             x="260.42969"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               style="text-align:center;text-anchor:middle"
+               id="tspan3789-3-4"
+               y="376.48328"
+               x="260.42969"
+               sodipodi:role="line">拼音系統</tspan></text>
+        </g>
+        <g
+           id="g5253">
+          <rect
+             y="452.36218"
+             x="160"
+             height="99.999992"
+             width="200"
+             id="rect3780-3-5-77-6"
+             style="fill:#f4cff6;fill-opacity:1;stroke:#000000;stroke-width:0.93903357;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3785-1-2-3"
+             y="491.42468"
+             x="260.48828"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               style="text-align:center;text-anchor:middle"
+               id="tspan3789-3-4-7"
+               y="491.42468"
+               x="260.48828"
+               sodipodi:role="line">語音辨識</tspan><tspan
+               style="text-align:center;text-anchor:middle"
+               y="541.42468"
+               x="260.48828"
+               sodipodi:role="line"
+               id="tspan3958">語音合成</tspan></text>
+        </g>
+        <g
+           id="g5243">
+          <rect
+             y="872.36218"
+             x="160"
+             height="99.999992"
+             width="200"
+             id="rect3780-3-5-77-8"
+             style="fill:#f4cff6;fill-opacity:1;stroke:#000000;stroke-width:0.93903357;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3785-1-2-4"
+             y="936.19031"
+             x="260.41016"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               style="text-align:center;text-anchor:middle"
+               id="tspan3789-3-4-9"
+               y="936.19031"
+               x="260.41016"
+               sodipodi:role="line">翻譯</tspan></text>
+        </g>
+        <g
+           id="g5237">
+          <rect
+             y="732.36218"
+             x="160"
+             height="99.999992"
+             width="200"
+             id="rect3780-3-5-77-1"
+             style="fill:#f4cff6;fill-opacity:1;stroke:#000000;stroke-width:0.93903357;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3785-1-2-5"
+             y="771.09265"
+             x="260.46875"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               style="text-align:center;text-anchor:middle"
+               id="tspan3789-3-4-1"
+               y="771.09265"
+               x="260.46875"
+               sodipodi:role="line">斷詞</tspan><tspan
+               style="text-align:center;text-anchor:middle"
+               y="821.09265"
+               x="260.46875"
+               sodipodi:role="line"
+               id="tspan4010">剖析</tspan></text>
+        </g>
+        <g
+           id="g5232">
+          <rect
+             y="592.36218"
+             x="160"
+             height="99.999992"
+             width="200"
+             id="rect3780-3-5-77-7"
+             style="fill:#f4cff6;fill-opacity:1;stroke:#000000;stroke-width:0.93903357;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3785-1-2-2"
+             y="656.22937"
+             x="260.74219"
+             style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+             xml:space="preserve"><tspan
+               style="text-align:center;text-anchor:middle"
+               id="tspan3789-3-4-97"
+               y="656.22937"
+               x="260.74219"
+               sodipodi:role="line">變調</tspan></text>
+        </g>
+      </g>
+      <g
+         id="g5325">
+        <path
+           sodipodi:type="arc"
+           style="fill:#cff6df;fill-opacity:1;stroke:#000000;stroke-width:0.84799999;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none"
+           id="path2985-1-1"
+           sodipodi:cx="204.28572"
+           sodipodi:cy="359.50504"
+           sodipodi:rx="101.42857"
+           sodipodi:ry="247.14285"
+           d="m 305.71429,359.50504 c 0,136.49322 -45.41111,247.14285 -101.42857,247.14285 -56.01745,0 -101.42857,-110.64963 -101.42857,-247.14285 0,-136.49323 45.41112,-247.14286 101.42857,-247.14286 56.01746,0 101.42857,110.64963 101.42857,247.14286 z"
+           transform="matrix(1.3802817,0,0,1.5780347,458.02816,75.050766)" />
+        <g
+           id="g5226">
+          <g
+             id="g5221">
+            <rect
+               style="fill:#f4cff6;fill-opacity:1;stroke:#000000;stroke-width:0.93903357;stroke-miterlimit:3.9000001;stroke-opacity:1;stroke-dasharray:none"
+               id="rect3780-3-5-77-3"
+               width="200"
+               height="99.999992"
+               x="640"
+               y="592.36218" />
+            <text
+               xml:space="preserve"
+               style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+               x="740.56641"
+               y="656.69812"
+               id="text3785-1-2-6"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 x="740.56641"
+                 y="656.69812"
+                 id="tspan3789-3-4-44"
+                 style="text-align:center;text-anchor:middle">語料庫</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.73333549;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m -120,502.36218 c 220.13126,0 220.13126,0 220.13126,0 l 56.03342,0"
+       id="path4135-3-3"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.73653507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m -120,642.36218 c 220.64692,0 220.64692,0 220.64692,0 l 56.16468,0"
+       id="path4135-3-8"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.73653507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m -120.64692,782.36218 c 220.64692,0 220.64692,0 220.64692,0 l 56.16468,0"
+       id="path4135-3-87"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.73653507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m 360,642.36218 c 220.64692,0 220.64692,0 220.64692,0 l 56.16468,0"
+       id="path4135-3-6"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.73653507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m 359.35308,782.36218 c 92.27053,0 188.37639,-140 280.64692,-140"
+       id="path4135-3-6-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.73653507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m 360,922.36218 c 92.27053,0 187.72947,-280 280,-280"
+       id="path4135-3-6-8-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.73653507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m 360,362.36218 c 92.27053,0 187.72947,280 280,280"
+       id="path4135-3-6-8-1-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.73653507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m 359.35308,502.36218 c 92.27053,0 188.37639,140 280.64692,140"
+       id="path4135-3-6-8-1-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.73699999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend-0)"
+       d="m 260,832.36218 c 0,40 0,40 0,40"
+       id="path5573"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
