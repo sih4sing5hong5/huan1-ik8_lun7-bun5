@@ -25,11 +25,17 @@
 
 \usepackage{ifthen}
 
+\newcommand{\too}[1]{
+\raisebox{-.2\height}{\includegraphics[height=1em]{#1}}
+}
 \newcommand{\ji}[1]{
-\includegraphics[height=1em]{字/#1}
+\too{字/#1}
+}
+\newcommand{\im}[1]{
+\too{音/#1}
 }
 \newcommand{\tsoo}[3]{
 \rubybot{#1
-\ifthenelse{\equal{#2}{}}{}{\includegraphics[height=1em]{音/#2}}
+\ifthenelse{\equal{#2}{}}{}{\im{#2}}
 }{#3}
 }
