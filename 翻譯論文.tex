@@ -915,14 +915,14 @@ TGB通訊\footnote{\url{http://taioan-chouhap.myweb.hinet.net/}}是學生台灣�
 \begin{axis}[
 scaled y ticks=real:1,
 ytick scale label code/.code={},
-ymax = 500,
+ymax = 14,
 symbolic x coords={0,10,20,50,100,200,500,1000,2000,3000},
 xtick=data,
 height=12cm,
 width=16cm,
 grid=major,
 xlabel={特徵詞數量},
-ylabel={分類錯誤數量},
+ylabel={分類錯誤率},
 legend style={
 cells={anchor=east},
 legend pos=north east,
@@ -930,15 +930,18 @@ legend pos=north east,
 }
 ]
 \addplot coordinates {
-(0,493) (10,248) (20,189) (50,149)
-(100,144) (200,155) (500,157)
-(1000,153) (2000,157) (3000,156)
+(0,13.18) (10,6.63) (20,5.05) (50,3.98)
+(100,3.85) (200,4.14) (500,4.20)
+(1000,4.09) (2000,4.20) (3000,4.17)
+%(0,493) (10,248) (20,189) (50,149)
+%(100,144) (200,155) (500,157)
+%(1000,153) (2000,157) (3000,156)
 };
 
 \legend{SVM}
 \end{axis}
 \end{tikzpicture}
-\caption{無仝分類模型佮特徵詞數量分類3741段臺華語的效果}
+\caption{無仝特徵詞數量，分類3741段臺華語的效果}
 \label{圖：無仝分類模型佮特徵詞數量對分類臺華語效果的影響}
 \end{figure}
 
