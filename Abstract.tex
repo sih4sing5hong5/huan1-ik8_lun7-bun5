@@ -1,0 +1,55 @@
+\chapter{Abstract}
+%Southern Min, Taiwanese, is major local language in Taiwan.
+%臺灣是一个多元民族、多元語言的國家，
+Taiwan is a multi-culture and multi-language country.
+%講母語、使用母語嘛是人上基本的權利，
+Saying mother tongues is a basic human right,
+%毋過母語的相關應用煞誠少。
+But there are a few electronic applications for these languages.
+%臺灣本土語言百百種，
+There are many local languages in Taiwan.
+%本論文先針對閩南語，
+This paper focuses on Southern Min, Taiwanese, is major local language in Taiwan.
+%研究伊翻譯語料的特性，
+It contains research into corpus preprocessing to get good performance in statistical machine translation,
+%除了閩南語本身以外，
+%嘛希望研究結果對別的本土語言有幫助。
+and it is also expected help for other Taiwan languages.%%
+
+%本論文主要有五个貢獻。
+There are five major contributions in this paper.
+%第一个是本論文提出「拄好長度斷詞」的演算法，
+First, this paper introduces the "Appropriate Length Segmentation",
+%雖然有改善「長詞優先」的缺點，
+which improves shortage of "Maximum Matching".
+%毋過效果無明顯，正確率差無$1\%$。
+It is better than Maximum Matching,
+but performance between these segmentation methods is below $1\%$.
+%第二个是提出一个自動整理漢語語料的方法，
+Second, we refine the corpus,
+%予資訊無完整的語料庫補足資訊，
+whose information is lacking.
+%發揮上大的價值，
+%BLEU分數對9.30鈕到13.82。
+After refining,
+the BLEU score is raised from 9.30 to 13.82.
+%第三个貢獻是證明平行語料數量無到十萬句的時，
+%加語料對翻譯的效果影響非常大，
+Third, the experiment says
+translation performance is sensitive to the amount of parallel corpus
+when the amount of parallel corpus sentences is less than 100,000.
+%原本64121句加35025句了後，
+%BLEU分數對13.82加到19.33。
+The BLEU scores are 13.82 and 19.33 when the amount of sentences are 64121 and 99147 respectively.
+%第四个貢獻是漢語語料用詞做單位去翻譯的時，
+%用斷字翻譯會當解決未知詞問題，
+Forth, translating the Chinese word out of vocabulary by Chinese character.
+%BLEU分數會當對18.64鈕到19.33。
+The BLEU score is raised from 18.64 to 19.33.
+%上尾一个貢獻是提出分類兩種漢語的方法，
+Finally, we introduce a identification method for two Chinese languages.
+%分類的錯誤率上低到$3.80\%$。
+It achieves $3.80\%$ error rate.
+
+%關鍵字：臺灣閩南語、華語、翻譯、語料、斷詞、語言分類
+Keyword:Southern Min, Taiwanese, Mandarin, Chinese, Translation, Corpus, Segmentation, Language Identification
