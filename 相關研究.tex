@@ -344,20 +344,20 @@ Stage 4 & en/et & New forms among young Taiwanese speakers\\
 除了閩南語的「東」會當切做「端通」
 華語的「\tsoo{東}{⿳⿳ㄉㄨㄥ}{}」嘛會當反切做「\tsoo{端}{⿳ㄉ}{}」「\tsoo{通}{⿳ㄨㄥ}{}」。
 
-\subsubsection{韻}
-\label{小節：韻}
+%\subsubsection{韻}
+%\label{小節：韻}
 
 %師詩斯
 
 
 %狗頭後
 
-\subsubsection{攝等}
-\label{小節：攝等}
+%\subsubsection{攝等}
+%\label{小節：攝等}
 
 
-\subsection{古早漢語推測}
-\label{小節：古早漢語推測}
+%\subsection{古早漢語推測}
+%\label{小節：古早漢語推測}
 
 %嘛因為韻冊的紀錄攏毋是實際發音音值，
 %誠濟聲韻學家以語音學佮音韻學的理論，
@@ -366,11 +366,12 @@ Stage 4 & en/et & New forms among young Taiwanese speakers\\
 %
 %ian ien en
 
-\section{句法學}
-\label{節：句法學}
-%討論啥物是詞、詞的用法。句型
+%\section{句法學}
+%\label{節：句法學}
+%句法學就是討論啥物是詞、詞的用法、句型的結構。
+%親像
 %
-%陸XX
+%陸儉明
 
 
 \section{機器學習}
@@ -584,7 +585,7 @@ HTS有3000～7000句的訓練語料，
 拄著新語料，重訓練模型就好矣，
 缺點是訓練資料需要誠濟。
 
-\subsection{語音合成相關系統}
+\subsection{相關系統}
 \label{小節：語音合成相關系統}
 目前臺灣母語的語音合成只有閩南語佮客話，
 親像表\ref{表：語音合成研究、系統}，
@@ -669,14 +670,42 @@ HTS有3000～7000句的訓練語料，
 
 %\section{詞性標記}
 %\label{節：詞性標記}
+%\subsection{相關系統}
+%\label{小節：詞性標記相關系統}
 %\cite{iunn:利用統計方法及中文訓練資料處理台語文詞性標記}
 %
-%\section{剖析}
-%\label{節：剖析}
-%斷詞了後毋知詞佮詞的關係
-%所以剖析
-%會當用佇翻譯佮語意分析（用佇問答系統）
-%楊允言教授有做過\cite{台語文語法結構樹建置}。
+
+\section{剖析}
+\label{節：剖析}
+剖析是了解語句內底詞的關係，
+分析語句的句型。
+剖析會當用佇翻譯佮語意分析，
+較定看著的就是問答系統\footnote{親像蘋果公司的Siri}。
+
+做剖析需要句法學的知識，
+閣愛有一致的人工檢查，
+這是一个誠大的工程。
+
+%http://nlp.stanford.edu/software/stanford-dependencies.shtml#Download
+%http://stackoverflow.com/questions/10401076/difference-between-constituency-parser-and-dependency-parser
+\subsection{相關系統}
+\label{小節：剖析相關系統}
+楊允言教授捌做過閩南語的剖析樹仔\cite{台語文語法結構樹建置}，
+毋過數量猶原無夠，需要閣整理。
+
+一開始的語料歹收集，
+有一个辦法是借用華語的剖析，
+先共閩南語翻譯做華語，
+才閣共華語語句的剖析樹仔\cite{chen2005chinese}對應去閩南語語句，
+按呢就有初步的樹仔矣。
+訂好剖析樹仔規則了後，
+就會使整理初步的樹仔，
+等待資料有夠濟，
+就會提樹仔的語料來訓練一个閩南語的剖析器\cite{klein2003accurate}。
+
+%人工若校對，全部的資料著愛收集起來
+%而且嘛愛親像XX節的XX圖仝款，愛做一个改錯誤的程式，予人工莫一直改仝款的物件
+。
 
 \section{翻譯}
 \label{節：翻譯}
