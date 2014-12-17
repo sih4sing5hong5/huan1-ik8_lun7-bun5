@@ -821,10 +821,15 @@ $BLEU=100\times{e^{\max{0,\frac{\textit{結果-答案長度}}{\textit{結果長�
 拼音的種類嘛差誠濟，
 只要檢驗有聲調抑是拼音規則就會使判斷是南島語抑是漢語。
 
-\subsection{語料對齊}
-\label{小節：語料對齊}
-bleualign
+\subsection{平行語料語句對齊}
+\label{小節：語句對齊}
+翻譯語料的平行語料需要一句一句對齊，
+若原本的語料是一篇一篇對應的，
+就需要平行語料語句對齊（Parallel Corpus Sentences Alignment）。
 
+語句對齊的方法有誠濟種，
+有照字元數量對齊的Gale and Church算法\cite{gale1993program}，
+嘛有用翻譯結果輔助的Bleualign\cite{zora38464}。
 
 \section{語料庫}
 \label{節：語料庫}
