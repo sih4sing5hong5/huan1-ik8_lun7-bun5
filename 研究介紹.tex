@@ -45,17 +45,51 @@
 翻譯模型毋知伊愛對應到佗一个閩南語詞，
 就會翻袂出來。
 因為訓練語料無可能有全部的華語，
+親像表\ref{表：未知詞問題範例}的例就無「憂愁」華語詞的翻譯方法，
 就愛想一个辦法，處理有詞翻袂出來的情形。
 
 
-%轉格式
+\begin{table}
+\caption{未知詞問題範例}
+\label{表：未知詞問題範例}
+\centering
+\begin{tabular}{ccc}
+\hline
+\multirow{2}{*}{訓練語料1} & 自稱 一輩子 離不開 預報 工作 的 吳德榮 , \\
+ & tsu7-tshing1 tsit8-si3-lang5 li5-be7-khui1… \\
+\hline
+\multirow{2}{*}{訓練語料2} & 開始 傷愁 了 , \\
+ & khai1-si2 siong1-tshiu5 ah4 , \\
+\hline
+\multicolumn{2}{c}{…} \\
+\hline
+\hline
+試驗輸入 & 一輩子 吃 穿 都 不用 憂愁 了 \\
+翻譯結果 & tsit8-si3-lang5 tsiah8 tshing7 long2 m7-bian2 憂愁 \\
+\hline
+\end{tabular}
+\end{table}
 
 %訓練語料1
 %自稱 一輩子 離不開 預報 工作 的 吳德榮 ,
-%tsu7-tshing1 tsit8-si3-lang5 li5-be7-khui1 ...
+%tsu7-tshing1 tsit8-si3-lang5 li5-be7-khui1…
+%\tsoo{自}{⿳⿳ㄗㄨ˫}{tsū}
+%\tsoo{稱}{⿳⿳ㄑㄧㄥ}{tshing}
+%\tsoo{一}{⿳⿳⿳ㄐㄧ㆐ㆵ}{tsi̍t}
+%\tsoo{世}{⿳⿳ㄒㄧ˪}{sì}
+%\tsoo{人}{⿳⿳ㄌㄤˊ}{lâng}
+%\tsoo{離}{⿳⿳ㄌㄧˊ}{lî}
+%\tsoo{袂}{⿳⿳ㆠㆤ˫}{bē}
+%\tsoo{開}{⿳⿳ㄎㄨㄧ}{khui} …
 %訓練語料2
 %開始 傷愁 了 ,
-%khai1-si2 siong1-tshiu5 ah4 ,
+%khai1-si2 siong1-tshiu5 ah4
+%\tsoo{開}{⿳ㄎㄞ}{khai}
+%\tsoo{始}{⿳⿳ㄒㄧˋ}{sí}
+%\tsoo{傷}{⿳⿳ㄒㄧㆲ}{siong}
+%\tsoo{愁}{⿳⿳⿳ㄑㄧㄨˊ}{tshiû}
+%\tsoo{矣}{⿳ㄚㆷ}{ah}
+%,
 %......
 %試驗輸入 一輩子 吃 穿 都 不用 憂愁 了
 %翻譯結果 tsit8-si3-lang5 tsiah8 tshing7 long2 m7-bian2 憂愁
