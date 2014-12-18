@@ -69,6 +69,23 @@
 %1
 %m−i
 %+ 拄好長度斷詞 i
+\begin{algorithm}
+  \caption{拄好長度斷詞方法}
+  \label{方法：拄好長度斷詞方法}
+  \begin{algorithmic}[1]
+    \REQUIRE 無斷詞的語句$[j_{1}, j_{2}, ... , j_{m}]$
+    \ENSURE 斷詞的語句$[s_{1}, s_{2}, ... , s_{n}]$
+    \STATE \( 決定辭典上長的詞字數$k$ \)
+    \Function{拄好長度斷詞}{需要斷詞字數m,辭典上長的詞字數k}
+		\IF{$n == 0$}
+			\Return 0
+	    \STATE \(成本c\gets\min \{\frac{1}{m-i}+\Call{拄好長度斷詞}{i,k} \} \)，其中\(j_{i+1}, j_{i+2}, ... , j_{m}\)是辭典的一个詞，而且\(0 ≤ m − k ≤ i ≤ m − 1\)
+		\STATE 斷詞的語句加入\(s=j_{i+1}, j_{i+2}, ... , j_{m}\)
+		\Return 成本c
+    \EndFunction
+    \STATE \( \Call{拄好長度斷詞}{m,k} \)
+  \end{algorithmic}
+\end{algorithm}
 
 
 
