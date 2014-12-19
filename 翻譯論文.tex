@@ -1,7 +1,8 @@
 \documentclass[final,oneside,onecolumn,12pt,a4paper]{book}%
 %薛丞宏加的
 \usepackage{fontspec} 
-\usepackage{xeCJK} 
+\usepackage{xeCJK} %會當用中文
+\xeCJKsetup{CJKmath=true} %數學式會當有中文
 \XeTeXlinebreaklocale "zh" 
 \XeTeXlinebreakskip = 0pt plus 1pt 
 \pagestyle{empty}
@@ -13,10 +14,22 @@
 \setCJKmonofont{MingLiU}  %xelatex 細明體
 \linespread{3}
 
+\usepackage{multirow}%表格用
+
 \usepackage[toc,page]{appendix}%加附錄
 \usepackage{makecell}%予表的第一格會當有一條舒舒的線隔做兩格
 \usepackage{tablefootnote}%佇表內底用註解footnote in table
 \usepackage{pgfplots}%畫圖表的套件
+
+\usepackage{algorithm,algorithmic,mathtools}%演算法開始
+\renewcommand{\algorithmicrequire}{\textbf{輸入:}}
+\renewcommand{\algorithmicensure}{\textbf{輸出:}}
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator{\conv}{conv}
+\DeclarePairedDelimiter{\norm}{\lVert}{\rVert}%演算法結束
+%http://tex.stackexchange.com/questions/168230/equation-with-argmin-inside-table
+%\usepackage{algorithm2e}
+%\usepackage[noend]{algpseudocode}
 
 \input{字音組合}
 %薛丞宏加的
@@ -141,10 +154,10 @@
 \bibliographystyle{IEEEtran}
 \bibliography{參考文獻}
 
-\begin{appendices}
-
-\include{臺灣言語工具}
-
-\end{appendices}
+%\begin{appendices}
+%
+%\include{臺灣言語工具}
+%
+%\end{appendices}
 
 \end{document}
