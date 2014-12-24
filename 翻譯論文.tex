@@ -159,6 +159,12 @@
 \listoffigures
 \listoftables
 
+\makeatletter %產生演算法目錄
+\renewcommand{\@dotsep}{0}
+\makeatother
+\listofalgorithms 
+\addcontentsline{toc}{chapter}{演算法目錄} %演算法目錄加到左側的索引列
+
 \mainmatter
 
 \include{研究背景}
