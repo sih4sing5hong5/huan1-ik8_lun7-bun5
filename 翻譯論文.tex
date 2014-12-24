@@ -14,6 +14,23 @@
 \setCJKmonofont{MingLiU}  %xelatex 細明體
 \linespread{3}
 
+\usepackage{tocbibind}%予目錄、圖表算法的表、參考文獻加佇目錄
+\renewcommand{\contentsname}{目錄}
+\renewcommand{\listtablename}{表目錄}
+\renewcommand{\listfigurename}{圖目錄}
+\renewcommand{\tablename}{表}%表前table換掉
+\renewcommand{\figurename}{圖}%表前figure換掉
+\renewcommand{\bibname}{參考文獻}%參考文獻改名為中文
+
+%\makeatletter %章節名稱改為中文樣式-方法一
+%\renewcommand{\@chapapp}{章節}
+
+\usepackage{titlesec} %章節名稱改為中文樣式-方法二
+\usepackage{titletoc}
+\usepackage{CJKnumb}
+\titleformat{\chapter}{\centering\Huge\bfseries}{第\,\CJKnumber{\thechapter}\,章}{1em} {}
+\titlespacing{\chapter}{0cm}{-1.3cm}{1em} 
+
 \usepackage{multirow}%表格用
 
 \usepackage[toc,page]{appendix}%加附錄
@@ -28,9 +45,9 @@
 \DeclareMathOperator{\conv}{conv}
 \DeclarePairedDelimiter{\norm}{\lVert}{\rVert}%演算法結束
 %http://tex.stackexchange.com/questions/168230/equation-with-argmin-inside-table
-%\usepackage{algorithm2e}
-%\usepackage[noend]{algpseudocode}
 
+\renewcommand{\listalgorithmname}{演算法目錄} %標題List of Algorithms改掉
+\floatname{algorithm}{演算法} %標題頭前Algorithm改掉
 \input{字音組合}
 %薛丞宏加的
 
@@ -110,7 +127,7 @@
 % Title
 {\huge \bfseries 漢語間統計式機器翻譯語料處理－用臺灣閩南語示範 } %20
 \\[1em]
-{\LARGE Corpus Preprocessing for Statistical Machine Translation between the Chinese Languages Using Taiwan Southern Min as Examples}
+{\LARGE Corpus Preprocessing for Statistical Machine Translation between the Chinese Languages - Using Taiwan Southern Min as Examples}
 \\[3em]
 
 \begin{table}[H]
@@ -141,6 +158,12 @@
 \tableofcontents
 \listoffigures
 \listoftables
+
+\makeatletter %產生演算法目錄
+\renewcommand{\@dotsep}{0}
+\makeatother
+\listofalgorithms 
+\addcontentsline{toc}{chapter}{演算法目錄} %演算法目錄加到左側的索引列
 
 \mainmatter
 

@@ -2,7 +2,7 @@
 \label{章：研究介紹}
 
 阮的目標是予閩南語的翻譯，效果閣較好，
-效果的好\ji{⿰禾黑}是看BLEU拍的分數\footnote{請看\ref{小節：評分方式}節的紹介}。
+效果的好\ji{⿰禾黑}是看BLEU拍的分數\footnote{請看\ref{小節：翻譯評分方式}節的紹介}。
 
 佇遮希望預處理語料，
 予翻譯效果變好。
@@ -13,7 +13,7 @@
 翻譯的統計機率會閣較好。
 第二个方向是資料愈濟愈好，
 加新的語料庫了後，
-翻譯模型有法度揀著上好的語詞來翻譯。
+翻譯模型揀著好的語詞來翻譯的機會愈大。
 
 本章第\ref{節：閩南語斷詞}摻\ref{節：未知詞問題}節針對第一个方向做，
 因為閩南語目前閣無剖析的程式，
@@ -53,7 +53,7 @@
 \caption{未知詞問題範例}
 \label{表：未知詞問題範例}
 \centering
-\begin{tabular}{ccc}
+\begin{tabular}{c|c}
 \hline
 \multirow{2}{*}{訓練語料1} & 自稱 一輩子 離不開 預報 工作 的 吳德榮 , \\
  & tsu7-tshing1 tsit8-si3-lang5 li5-be7-khui1… \\
@@ -65,6 +65,7 @@
 \hline
 \hline
 試驗輸入 & 一輩子 吃 穿 都 不用 憂愁 了 \\
+\hline
 翻譯結果 & tsit8-si3-lang5 tsiah8 tshing7 long2 m7-bian2 憂愁 \\
 \hline
 \end{tabular}
@@ -120,8 +121,9 @@
 \caption{語料庫狀況}
 \label{表：整理語料語料庫狀況}
 \centering
-\begin{tabular}{cccc}
+\begin{tabular}{c|ccc}
  & 全漢 & 全羅 & 斷詞 \\
+\hline
 教育部辭典 & O & O & O \\
 新聞語料庫 & O & O & X\tablefootnote{因為新聞語料斷詞無規範} \\
 臺文典藏 & X & O\tablefootnote{臺文典藏少數無全羅} & O \\
@@ -135,7 +137,7 @@
 \caption{語言分類範例}
 \label{表：語言分類範例}
 \centering
-\begin{tabular}{p{30em}l}
+\begin{tabular}{p{30em}|l}
 語句 & 語言\\
 \hline
 聽人講 khah 早有出現過『小蜜蜂』 & 閩南語\\
