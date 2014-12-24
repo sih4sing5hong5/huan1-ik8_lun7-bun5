@@ -14,8 +14,12 @@
 \setCJKmonofont{MingLiU}  %xelatex 細明體
 \linespread{3}
 
-\renewcommand\tablename{表}
-\renewcommand\figurename{圖}
+\usepackage{tocbibind}%予目錄、圖表算法的表、參考文獻加佇目錄
+\renewcommand{\contentsname}{目錄}
+\renewcommand{\listtablename}{表目錄}
+\renewcommand{\listfigurename}{圖目錄}
+\renewcommand{\tablename}{表}%表前table換掉
+\renewcommand{\figurename}{圖}%表前figure換掉
 
 \usepackage{multirow}%表格用
 
@@ -31,7 +35,9 @@
 \DeclareMathOperator{\conv}{conv}
 \DeclarePairedDelimiter{\norm}{\lVert}{\rVert}%演算法結束
 %http://tex.stackexchange.com/questions/168230/equation-with-argmin-inside-table
-\floatname{algorithm}{演算法}
+
+\renewcommand{\listalgorithmname}{演算法目錄} %標題List of Algorithms改掉
+\floatname{algorithm}{演算法} %標題頭前Algorithm改掉
 \input{字音組合}
 %薛丞宏加的
 
