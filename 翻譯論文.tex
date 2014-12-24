@@ -22,6 +22,15 @@
 \renewcommand{\figurename}{圖}%表前figure換掉
 \renewcommand{\bibname}{參考文獻}%參考文獻改名為中文
 
+%\makeatletter %章節名稱改為中文樣式-方法一
+%\renewcommand{\@chapapp}{章節}
+
+\usepackage{titlesec} %章節名稱改為中文樣式-方法二
+\usepackage{titletoc}
+\usepackage{CJKnumb}
+\titleformat{\chapter}{\centering\Huge\bfseries}{第\,\CJKnumber{\thechapter}\,章}{1em} {}
+\titlespacing{\chapter}{0cm}{-1.3cm}{1em} 
+
 \usepackage{multirow}%表格用
 
 \usepackage[toc,page]{appendix}%加附錄
