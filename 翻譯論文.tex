@@ -14,6 +14,9 @@
 \setCJKmonofont{MingLiU}  %xelatex 細明體
 \linespread{3}
 
+\renewcommand\tablename{表}
+\renewcommand\figurename{圖}
+
 \usepackage{multirow}%表格用
 
 \usepackage[toc,page]{appendix}%加附錄
@@ -28,9 +31,7 @@
 \DeclareMathOperator{\conv}{conv}
 \DeclarePairedDelimiter{\norm}{\lVert}{\rVert}%演算法結束
 %http://tex.stackexchange.com/questions/168230/equation-with-argmin-inside-table
-%\usepackage{algorithm2e}
-%\usepackage[noend]{algpseudocode}
-
+\floatname{algorithm}{演算法}
 \input{字音組合}
 %薛丞宏加的
 
@@ -141,6 +142,7 @@
 \tableofcontents
 \listoffigures
 \listoftables
+\listofalgorithms
 
 \mainmatter
 
