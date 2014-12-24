@@ -805,10 +805,10 @@ SRILM是學術授權。
 $BLEU=100\times{e^{\max{0,\frac{\textit{結果-答案長度}}{\textit{結果長度}}}}}\times{\sum_{n=1}^{4}(\textrm{n連紲詞})^{\frac{1}{4}}}$\cite{BLEU程式}。
 %改cite
 
-準若翻譯的答案是「這　幾　工　寒流　閣再　展威」，咱有兩个翻譯的結果，翻譯結果一「這　幾　工　寒流　有　展威」佮結果二「寒流　這　幾　工　閣再　展威」，請看表\ref{表：範例BLEU分數}，答案有「這　幾　工」、「幾　工　寒流」、「工　寒流　閣再」佮「寒流　閣再　展威」4个三連紲詞，結果一有出現2个，所以結果一的三連紲詞分數是2/4，結果二有出現1个，分數是1/4。因為結果二無對應的四連紲詞，伊的分數都比結果一低。
+準若翻譯的答案是「這　幾　工　寒流　閣再　展威」，咱有兩个翻譯的結果，翻譯結果一「這　幾　工　寒流　有　展威」佮翻譯結果二「寒流　這　幾　工　閣再　展威」，請看表\ref{表：範例BLEU分數}，答案有「這　幾　工」、「幾　工　寒流」、「工　寒流　閣再」佮「寒流　閣再　展威」4个三連紲詞，結果一有出現2个，所以結果一的三連紲詞分數是2/4，結果二有出現1个，分數是1/4。因為結果二無對應的四連紲詞，伊的分數都比結果一低。
 
 \begin{table}
-\caption{翻譯結果一「這　幾　工　寒流　有　展威」佮翻譯結果二「寒流　這　幾　工　閣再　展威」對答案「這　幾　工　寒流　閣再　展威」的分數}%
+\caption{翻譯結果一佮翻譯結果二對答案的BLEU分數}
 \label{表：範例BLEU分數}
 \centering
 \begin{tabular}{|c|cccc|c|}
@@ -938,10 +938,10 @@ $BLEU=100\times{e^{\max{0,\frac{\textit{結果-答案長度}}{\textit{結果長�
 \caption{教育部辭典例句}
 \label{表：教育部辭典例句}
 \centering
-\begin{tabular}{l}
-彼个查某囡仔真媠。 \\
-Hit ê tsa-bóo gín-á tsin suí.\\
-那個女孩子很漂亮。\\
+\begin{tabular}{c|c}
+全漢 & 彼个查某囡仔真媠。 \\
+全羅 & Hit ê tsa-bóo gín-á tsin suí.\\
+華語 & 那個女孩子很漂亮。\\
 \end{tabular}
 \end{table}
 
@@ -1023,9 +1023,9 @@ iCorpus臺華平行新聞語料庫（後壁用「新聞語料庫」稱呼）\cit
 \caption{臺文典藏語料漢羅、全羅對照}
 \label{表：臺文典藏語料}
 \centering
-\begin{tabular}{l}
-漢羅：Koh m7知u7危險.........., \\
-全羅\footnote{臺文典藏內底原本是教會羅馬拼音，為著讀者方便，攏改做教育部的臺羅}：Koh m7-tsai u7 gui5-hiam2...............,\\
+\begin{tabular}{c|c}
+漢羅 & Koh m7知u7危險.........., \\
+全羅\footnote{臺文典藏內底原本是教會羅馬拼音，為著讀者方便，攏改做教育部的臺羅} & Koh m7-tsai u7 gui5-hiam2...............,\\
 \end{tabular}
 \end{table}
 
@@ -1045,14 +1045,17 @@ TGB通訊\cite{TGB通訊}是學生台灣語文促進會
 \caption{TGB通訊語料狀況}
 \label{表：TGB通訊閩南語、華語對照}
 \centering
-\begin{tabular}{lp{30em}}
+\begin{tabular}{l|p{30em}}
 平行語料 & 範例 \\
+\hline
 閩南語漢羅 & Gín-á beh講sián-mih款語言kám是gín-á ka-tī決定--ê? Iah是大人提供ê選擇? \\
 華語漢字 & 孩子要講什麼語言是孩子自己決定的嗎?還是大人提供的選擇? \\
 \hline
 \end{tabular}
-\begin{tabular}{lp{30em}}
+\begin{tabular}{l|p{30em}}
+\hline
 濫做伙語料 & 範例 \\
+\hline
 語料一 & 「 糟了 ,是工地火燒厝, 緊轉去打 火 ! 」建設公司 的 工地主任 從手機接到消息,通話結束後就帶著那群混混先離開了。 \\
 語料二 & 『聽說妳最近遇到什麼問題 , 是不是 ? 怎麼了 ? 』好性地 ê QA 繼續問--落-去 . \\
 \end{tabular}
