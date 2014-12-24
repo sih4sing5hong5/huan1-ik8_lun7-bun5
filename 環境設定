@@ -30,3 +30,8 @@ xelatex 翻譯論文 #建索引
 bibtex 翻譯論文 #產生參考文獻
 xelatex 翻譯論文 #重建索引
 xelatex 翻譯論文 #產生PDF
+
+加浮水印
+----------------------------
+https://www.pdflabs.com/docs/how-to-add-headers-footers-watermarks-and-stamps-to-pdf/
+pdftk 翻譯論文.pdf multistamp 浮水印.pdf output 翻譯論文結果.pdf
